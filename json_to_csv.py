@@ -7,7 +7,9 @@ with open('errors.json') as json_file:
 csv_file = open('errors.csv', 'w')
 csv_writer = csv.writer(csv_file)
 
-for key in data.keys():
-  for another_key in data[key].keys():
-    csv_writer.writerow(data[key][another_key][0].upper())
+for first_key in data.keys():
+  for second_key in data[first_key].keys():
+    string = data[first_key][second_key][0].upper()
+    csv_writer.writerow([string])
+
 csv_file.close()
