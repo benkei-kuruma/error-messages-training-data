@@ -1,6 +1,6 @@
 # error-messages-training-data
 
-**This is not mine. I am just using it for experimental purposes.**
+**errors.json is not mine. I am just using it for experimental purposes.**
 
 Original author: https://github.com/jdarpinian
 
